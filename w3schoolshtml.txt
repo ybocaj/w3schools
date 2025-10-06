@@ -1,0 +1,796 @@
+w3schools html - start at bottom
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Multilingual Page</title>
+	<style>
+		h1 {
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>This is a Heading</h1>
+	<h1 style="font-size:60px;">Heading 1 60</h1>
+	<p title="I am a tooltip">This is a paragraph.</p>
+	<p style="color:red;">This is a red paragraph.</p>
+	<p title="I'm a tooltip">This is a paragraph.</p>
+	<div lang="ur" dir="rtl">
+        	<h2>اردو میں خوش آمدید!</h2>
+	        <p>یہ اردو میں ایک مثال کا پیراگراف ہے۔</p>
+	</div>
+
+	<p>More English content here.</p>
+        <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+    	<p>My favorite color is <del>pink</del> <u>orange</u>.</p>
+    	<p>This is <sub>subscripted</sub> text.</p>
+    	<p>This is <sup>superscripted</sup> text.</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<address>
+<cite>
+// 0 is most transparent with rgba
+<p>Same as color name "Tomato", but 50% transparent:</p>
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 100%);">rgba(255, 99, 71, 100%)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h1>
+
+    <h1 style="background-color:rgb(255, 0, 0);">rgb(255, 0, 0) red</h1>
+    <h1 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255) blue</h1>
+    <h1 style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113) green</h1>
+    <h1 style="background-color:rgb(60, 179, 113);">rgb(0, 255, 0) green?</h1>
+    <h1 style="background-color:rgb(238, 130, 238);">rgb(238, 130, 238) pink</h1>
+    <h1 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0) orangeish</h1>
+    <h1 style="background-color:rgb(255, 140, 0);">rgb(255, 165, 0) darker orange</h1>
+    <h1 style="background-color:rgb(255, 100, 0);">rgb(255, 165, 0) dark orange</h1>
+    <h1 style="background-color:rgb(106, 90, 205);">rgb(106, 90, 205) purple</h1>
+ shades of gray, rgb, black and white
+    <h1 style="background-color:rgb(60, 60, 60);">rgb(60, 60, 60) darker</h1>
+    <h1 style="background-color:rgb(100, 100, 100);">rgb(100, 100, 100)</h1>
+    <h1 style="background-color:rgb(140, 140, 140);">rgb(140, 140, 140)</h1>
+    <h1 style="background-color:rgb(180, 180, 180);">rgb(180, 180, 180)</h1>
+    <h1 style="background-color:rgb(200, 200, 200);">rgb(200, 200, 200)</h1>
+    <h1 style="background-color:rgb(240, 240, 240);">rgb(240, 240, 240) lighter</h1>
+<hr>
+    255 255 255 is white 
+    <h1 style="background-color:rgb(255, 255, 255);">255, 255, 255 is white</h1>
+    <h1 style="background-color:white;">white</h1>
+    so 0 0 0 is black
+    <h1 style="background-color:rgb(0, 0, 0); color:white;">0, 0, 0 is black</h1>
+    <h1 style="background-color:black; color:white;">black</h1>
+hext black to white  000 fff
+    <h1 style="background-color:#404040;">#404040</h1>
+    <h1 style="background-color:#686868;">#686868</h1>
+    <h1 style="background-color:#a0a0a0;">#a0a0a0</h1>
+    <h1 style="background-color:#bebebe;">#bebebe</h1>
+    <h1 style="background-color:#dcdcdc;">#dcdcdc</h1>
+    <h1 style="background-color:#f8f8f8;">#f8f8f8</h1>
+
+<style>
+a:link  {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+ a:visited  {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover  {
+  color: red;
+  background-color: transparent;
+    text-decoration: underline;
+}
+ a:active  {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+<style>
+a:link, a:visited  {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active  {
+  background-color: red;
+}
+
+map coordinates
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+
+
+
+
+
+
+
+<!-----------  html course at w3schools.  Already about 25% through ----------->
+<!-----------  html course at w3schools.  Already about 25% through ----------->
+<!-----------  html course at w3schools.  Already about 25% through ----------->
+<!-----------  html course at w3schools.  Already about 25% through ----------->
+<!-----------  html course at w3schools.  Already about 25% through ----------->
+<!-----------  html course at w3schools.  Already about 25% through ----------->
+<!-----------  html course at w3schools.  Already about 25% through ----------->
+
+<!-- bg stretch -->
+        background-image: url("https://www.w3schools.com/html/img_girl.jpg"); // there's a quiz question about this
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+	background-size: cover;  // or try background-size: 100% 100%;
+
+hsl = hue saturation, lightness - seems like lightness 0 is black, 100% is white and hue determines reg, green, blue (0 red, 120 green, 240 blue) --- for hue.
+
+<img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+
+<!-- image maps might be handy someday -->
+    <map name="workmap">
+      <area alt="Computer" coords="34,44,270,350" href="examples/computer.htm" shape="rect"/>
+      <area alt="Phone" coords="290,172,333,250" href="phone.htm" shape="rect"/>
+      <area alt="Cup of coffee" coords="337,300,44" href="examples/coffee.htm" shape="circle"/>
+    </map>
+
+
+
+<picture>
+    <source media="(min-width: 650px)" srcset="https://www.w3schools.com/html/img_food.jpg"/>
+    <source media="(min-width: 465px)" srcset="https://www.w3schools.com/html/img_car.jpg"/>
+    <img src="https://www.w3schools.com/html/img_girl.jpg" style="width:auto;"/>
+</picture>
+
+borders - to avoid double borders, use collapse
+
+table, th, td  {
+  border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table  {
+    border-spacing: 30px; // space between cells
+}
+
+// zebra stripes
+
+tr:nth-child(even)  {
+  background-color: #D6EEEE;
+}
+
+// vertical zebra
+td:nth-child(even), th:nth-child(even)  {
+  background-color: #D6EEEE;
+}
+
+/*
+There is only a very limited selection of CSS properties that are allowed to be used in the colgroup:
+
+width property
+visibility property
+background properties
+border properties
+
+If you want to style multiple columns with different styles, use more than one <col> element inside the <colgroup>:
+
+Example
+<table>
+  <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+    <col span="3" style="background-color: pink">
+
+hide
+<col span="3" style="visibility: collapse">
+
+*/
+
+
+
+Favicon - To add a favicon to your website, either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, and save your favicon image in this folder. A common name for a favicon image is "favicon.ico".
+
+	Next, add a <link> element to your "index.html" file, after the <title> element:
+
+	<head>
+    		<title>My Page Title</title>
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	</head>
+
+/*
+
+lists
+
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term.
+
+<ul style="list-style-type:circle;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<ul style="list-style-type:none;"> // looks like same effect as text-decoration: none;
+</ul>
+
+
+// nav - using list as a navbar
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+      }
+      li {
+      float: left;
+      }
+      li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+      }
+      li a:hover {
+      background-color: #111111;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Navigation Menu</h2>
+    <p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+    <ul>
+      <li>
+        <a href="https://www.w3schools.com/html/#home">Home</a>
+      </li>
+      <li>
+        <a href="https://www.w3schools.com/html/#news">News</a>
+      </li>
+      <li>
+        <a href="https://www.w3schools.com/html/#contact">Contact</a>
+      </li>
+      <li>
+        <a href="https://www.w3schools.com/html/#about">About</a>
+      </li>
+    </ul>
+  </body>
+</html>
+
+// start at a number other than 1
+
+<ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+	<ol type="I">
+	    <li>whole</li>
+	    <li>skim</li>
+	</ol>
+</ol>
+
+        <ol type="1" start=34>
+            <li>Coffee</li>
+            <li>
+                Tea    
+                <ol type="a">
+                    <li>Black tea</li>
+                    <li>Green tea</li>
+                </ol>
+            </li>
+            <li>Milk</li>
+        </ol>
+
+
+// roman numeral lists and more
+The type attribute of the <ol> tag, defines the type of the list item marker:
+
+Type	Description
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers
+
+
+<span style="color:blue;font-weight:bold;">blue</span>
+  eyes and my father has
+<span style="color:darkolivegreen;font-weight:bold;">dark green</span>
+
+
+/*
+
+If you have a <div> element that is not 100% wide, and you want to center-align it, set the CSS margin property to auto.
+
+*/
+
+div  {
+  width:300px;
+  margin:auto;
+}
+
+// use divs for horizontal alignment
+    div.mycontainer {
+    width:100%;
+    overflow:auto;
+    }
+    div.mycontainer div {
+    width:33%;
+    float:left;
+    }
+  </style>
+  <body>
+    <div class="mycontainer">
+      <div style="background-color:#FFF4A3;">
+        <h2>London</h2>
+        <p>London is the capital city of England.</p>
+        <p>London has over 9 million inhabitants.</p>
+      </div>
+      <div style="background-color:#FFC0C7;">
+        <h2>Oslo</h2>
+        <p>Oslo is the capital city of Norway.</p>
+        <p>Oslo has over 700,000 inhabitants.</p>
+      </div>
+      <div style="background-color:#D9EEE1;">
+        <h2>Rome</h2>
+        <p>Rome is the capital city of Italy.</p>
+        <p>Rome has over 4 million inhabitants.</p>
+      </div>
+    </div>
+  </body>
+
+
+// same thing but using inline block
+
+<style>
+div  {
+  width: 30%;
+  display: inline-block;
+}
+</style>
+
+
+// flexbox 
+    <style>
+      .mycontainer {
+      display: flex;
+      }
+      .mycontainer > div {
+      width:33%;
+      }
+    </style>
+
+// grid
+<style>
+.grid-container  {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+</style>
+
+
+
+// Use ID to advance to a portion in the page
+<h2 id="C4">Chapter 4</h2>
+// add bookmark from same page
+<a href="#C4">Jump to Chapter 4</a>
+// or from another page
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CSS FLEXBOX LAYOUT ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Template</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <style>
+      * {
+      box-sizing: border-box;
+      }
+      body {
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      /* Style the header */
+      header {
+      background-color: #666;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+      }
+      /* Container for flexboxes */
+      section {
+      display: -webkit-flex;
+      display: flex;
+      }
+      /* Style the navigation menu */
+      nav {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      background: #ccc;
+      padding: 20px;
+      }
+      /* Style the list inside the menu */
+      nav ul {
+      list-style-type: none;
+      padding: 0;
+      }
+      /* Style the content */
+      article {
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      background-color: #f1f1f1;
+      padding: 10px;
+      }
+      /* Style the footer */
+      footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      }
+      /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+      @media (max-width: 600px) {
+      section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS Layout Flexbox</h2>
+    <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+    <p>Resize the browser window to see the responsive effect.</p>
+    <header>
+      <h2>Cities</h2>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.w3schools.com/html/">London</a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/html/">Paris</a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/html/">Tokyo</a>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <h1>London</h1>
+        <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+      </article>
+    </section>
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </body>
+</html>
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ END OF CSS FLEXBOX LAYOUT ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ RESPONSIVE WEB DESIGN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+// width 100% helps with responsiveness
+
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+// When the CSS width property is set in a percentage value, the image will scale up and down 
+// when resizing the browser window. Resize the browser window to see the effect.
+
+	<img src="https://www.w3schools.com/html/img_girl.jpg" style="width:100%;"/>
+
+
+// "max-width:100%" prevents the image from getting bigger than its original size. 
+// However, if you make the browser window smaller, the image will still scale down.
+
+<img src="https://www.w3schools.com/html/img_girl.jpg" style="max-width:100%;height:auto;"/>
+
+
+// show different images at different widths
+
+<picture>
+	<source media="(max-width: 600px)" srcset="https://www.w3schools.com/html/img_smallflower.jpg"/>
+        <source media="(max-width: 1500px)" srcset="https://www.w3schools.com/html/img_flowers.jpg"/>
+        <source srcset="https://www.w3schools.com/html/flowers.jpg"/>
+	<img alt="Flowers" src="https://www.w3schools.com/html/img_flowers.jpg" style="width:auto;"/>
+</picture>
+
+// viewport width
+
+// Viewport is the browser window size. 
+// 1vw = 1% of viewport width. 
+// If the viewport is 50cm wide, 1vw is 0.5cm.
+
+<h1 style="font-size:10vw;">Responsive Text</h1>
+<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
+<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 
+   10vw will set the size to 10% of the viewport width.</p>
+
+
+<!-----------------------------       responsive        ----------------------------->
+ <!-----------------------------         make a        ----------------------------->
+  <!-----------------------------       template      ----------------------------->
+
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+// I want a template with no content and different background colors in each "section"
+
+    <style>
+      * {
+      box-sizing: border-box;
+      }
+      .menu {
+      float: left;
+      width: 20%;
+      text-align: center;
+      }
+      .menu a {
+      background-color: #e5e5e5;
+      padding: 8px;
+      margin-top: 7px;
+      display: block;
+      width: 100%;
+      color: black;
+      }
+      .main {
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+      }
+      .right {
+      background-color: #e5e5e5;
+      float: left;
+      width: 20%;
+      padding: 15px;
+      margin-top: 7px;
+      text-align: center;
+      }
+      @media only screen and (max-width: 620px) {
+      /* For mobile phones: */
+      .menu, .main, .right {
+      width: 100%;
+      }
+      }
+    </style>
+  </head>
+  <body style="font-family:Verdana;color:#aaaaaa;">
+    <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+      <h1>Hello World</h1>
+    </div>
+    <div style="overflow:auto">
+      <div class="menu">
+        <a href="https://www.w3schools.com/html/">Link 1</a>
+        <a href="https://www.w3schools.com/html/">Link 2</a>
+        <a href="https://www.w3schools.com/html/">Link 3</a>
+        <a href="https://www.w3schools.com/html/">Link 4</a>
+      </div>
+      <div class="main">
+        <h2>Lorum Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+      </div>
+      <div class="right">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+      </div>
+    </div>
+    <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
+
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ JAVASCRIPT BELOW THIS LINE ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+
+/*
+A clickable area can also trigger a JavaScript function.
+
+Add a click event to the <area> element to execute a JavaScript function:
+
+Example
+Here, we use the onclick attribute to execute a JavaScript function when the area is clicked:
+*/
+
+<map name="workmap">
+  <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+</map>
+<script>
+function myFunction() {
+  alert("You clicked the coffee cup!");
+} </script>
+'
+</body>
+</html>
+
+
+
+<!-- js example to hide upon click -->
+
+    <h2>Use of The class Attribute in JavaScript</h2>
+    <p>Click the button to hide all elements with class name "city":</p>
+    <button onclick="myFunction()">Hide elements</button>
+    <h2 class="city">London</h2>
+    <p>London is the capital of England.</p>
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+
+<script>
+function myFunction() {
+  var x = <strong>document.getElementsByClassName("city")</strong>;
+  for (var i = 0; i < x.length; 
+  i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>
+
+
+    <h2>Using The id Attribute in JavaScript</h2>
+    <p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
+    <h1 id="myHeader">Hello World!</h1>
+    <button onclick="displayResult()">Change text</button>
+    <script>
+      function displayResult() {
+      document.getElementById("myHeader").innerHTML = "Have a nice day!";
+      }
+    </script>
+ 
+
+
+<script> document.getElementById("demo").innerHTML = "Hello JavaScript!"; </script>
+
+// JavaScript can change content:
+
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+
+// JavaScript can change styles:
+
+document.getElementById("demo").style.fontSize = "25px";
+document.getElementById("demo").style.color = "red";
+document.getElementById("demo").style.backgroundColor = "yellow";
+
+// JavaScript can change attributes:
+
+document.getElementById("image").src = "picture.gif";
+
+
+
+// If JS is disabled or browser doesn't support
+<script> document.getElementById("demo").innerHTML = "Hello JavaScript!"; </script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+
+// hello world example
+
+  <h1>Logic Challenge</h1>
+  <div id="hello"></div>
+  <script>
+    // Add your JavaScript code here
+    document.getElementById("hello").innerHTML = "Hello, World!";
+
+  </script>
+
+
+    <script>
+      function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello JavaScript!";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>My Web Page</h1>
+    <div id="demo">
+    </div>
+    <button onclick="myFunction()" type="button">Try it</button>
+  </body>
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ JAVASCRIPT ABOVE THIS LINE ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ SEO ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+// The <meta> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
+
+	<meta charset="utf-8"/>
+	<meta content="Free Web tutorials" name="description"/>
+	<meta content="HTML, CSS, JavaScript" name="keywords"/>
+	<meta content="John Doe" name="author"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+/*
+Viewport gives the browser instructions on how to control the page's dimensions and scaling.
+
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+
+Here is an example of a web page without the viewport meta tag, and the same web page with the viewport meta tag:
+
+Tip: If you are browsing this page with a phone or a tablet, you can click on the two links below to see the difference.
+
+*/
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ SEO ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+----------------------- TEST? ------------------------
+Maybe the test will compile all quiz answers?  
+- An IMAGE is NOT a legal HTML element
+- What will be the result if the browser supports both images?  
+	Only the first will be displayed
+- An element inside a element will NOT always be prioritized 
+  before any image defined in a element
+- What is the correct tag name for describing the term of a definition list?
+  <dd>
+- <iframe src="https://www.example.com" style="height:200px;width:300px" title="Iframe Example"></iframe>
+    <code>let x = 10;</code>
+    <p class="emoji">😊</p>
+
+
