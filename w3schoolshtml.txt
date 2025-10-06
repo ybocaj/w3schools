@@ -638,6 +638,15 @@ div  {
 
 
 
+<!-- 
+	Check https://pathfinder.w3schools.com/course-player?skillId=9eb290f1-fc77-470c-988c-c47f26cfcf86&chapterIndex=46&slideIndex=7
+	See if it takes me to their part of the tutorial with their framework.  
+	I like how the page goes from horizontal to vertical.  
+	so maybe look to copy the code
+
+	then look into bootstrap; check to see if I have a bootstrap book or check my tablet.
+	skim through, look for tips, quick tips
+-->
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ JAVASCRIPT BELOW THIS LINE ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
 
