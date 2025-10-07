@@ -428,6 +428,43 @@ div  {
 
 
 
+// form
+    <form>
+      <label for="fname">First name:</label>
+      <br/>
+      <input id="fname" name="fname" type="text" value="John"/>
+      <br/>
+      <label for="lname">Last name:</label>
+      <br/>
+      <input id="lname" name="lname" type="text" value="Doe"/>
+      <br/>
+      <br/>
+      <input type="button" value="Submit" onclick="document.getElementById('form-submission').textContent = Array.from(this.form.querySelectorAll('input, select, textarea, output')).filter(input => input.type !== 'submit' && input.type !== 'button').map(input => { if (input.tagName === 'SELECT') { return Array.from(input.selectedOptions).map(option => option.value).join(', '); } else if (input.type === 'checkbox' || input.type === 'radio') { return input.checked ? input.value : null; } else { return input.value || null; } }).filter(value => value !== null && value !== '').join(' ')" />
+    </form>
+    <p>You submitted: <span id="form-submission">
+    </span>
+
+
+
+// color picker
+    <h2>Show a Color Picker</h2>
+    <p>The <strong>input type="color"</strong> is used for input fields that should contain a color.</p>
+    <form>
+      <label for="favcolor">Select your favorite color:</label>
+      <input id="favcolor" name="favcolor" type="color" value="#ff0000"/>
+      <input type="button" value="Submit" onclick="document.getElementById('form-submission').textContent = Array.from(this.form.querySelectorAll('input, select, textarea, output')).filter(input => input.type !== 'submit' && input.type !== 'button').map(input => { if (input.tagName === 'SELECT') { return Array.from(input.selectedOptions).map(option => option.value).join(', '); } else if (input.type === 'checkbox' || input.type === 'radio') { return input.checked ? input.value : null; } else { return input.value || null; } }).filter(value => value !== null && value !== '').join(' ')" />
+    </form>
+    <p>You submitted: <span id="form-submission">
+    </span>
+  </p>
+  <p>
+    <b>Note:</b> type="color" is not supported in Internet Explorer 11.</p>
+
+
+// Default size is 20
+<input type="text" id="fname" name="fname" size="50">
+
+
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CSS FLEXBOX LAYOUT ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
 
