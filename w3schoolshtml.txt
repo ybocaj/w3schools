@@ -394,6 +394,38 @@ div  {
 <a href="html_demo.html#C4">Jump to Chapter 4</a>
 
 
+// image 
+
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli">
+  <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
+</figure>
+
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+
+// language and charset
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+
+
+// euro
+<p>I will display &euro;</p>
+<p>I will display &#8364;</p>
+<p>I will display &#x20AC;</p>
+
+
+// Greek
+    <h1>Greek Letter Example</h1>
+    <h2>The capital zeta letter: &amp;Alpha;</h2>
+    <h2>The capital zeta letter: &amp;Beta;</h2>
+    <h2>The capital zeta letter: &amp;Gamma;</h2>
+    <h2>The capital zeta letter: &amp;Delta;</h2>
+    <h2>The capital zeta letter: &amp;Epsilon;</h2>
+    <h2>The capital zeta letter: &amp;Zeta;</h2>
+
 
 
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CSS FLEXBOX LAYOUT ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
