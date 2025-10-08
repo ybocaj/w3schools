@@ -118,10 +118,27 @@ map coordinates
 
 
 
+// CSS - shapes and such.   Cool little tricks with images here...
+
+https://pathfinder.w3schools.com/learningpaths?skillId=d9d33465-bb26-40af-9181-a949de2f5b44
+
+img {
+    clip-path: circle(50%);
+}
+img {
+  clip-path: circle(50% at right);
+}
+
+float: left;
+center with margin auto and flex
 
 
+// turn an image into a triangle, star, ellipse
+https://pathfinder.w3schools.com/learningpaths?skillId=d9d33465-bb26-40af-9181-a949de2f5b44
 
-
+// gradients
+https://pathfinder.w3schools.com/learningpaths?skillId=d9d33465-bb26-40af-9181-a949de2f5b44
+  background-image: conic-gradient(from 45deg, purple, pink);
 
 <!-----------  html course at w3schools.  Already about 25% through ----------->
 <!-----------  html course at w3schools.  Already about 25% through ----------->
@@ -463,6 +480,14 @@ div  {
 
 // Default size is 20
 <input type="text" id="fname" name="fname" size="50">
+
+
+
+// video
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+
 
 
 
@@ -921,6 +946,38 @@ Tip: If you are browsing this page with a phone or a tablet, you can click on th
 
 
 ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ SEO ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ API ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+Application Programming Interface - interface that includes a set of functions and subroutines that allow programmers to access specific features or data of an application, operating system or other services
+
+A Web API is an application programming interface for the Web
+
+These are some of the main APIs:
+Geolocation - location (latitude and longitude)
+Drag n Drop - to d&d features in browsers
+Web Storage - store key/value pairs in more intuitive ways than cookies
+
+Third party APIs are not built into your browser.
+
+To use these APIs, you will have to download the code from the Web.
+
+Examples:
+
+YouTube API - Allows you to display videos on a web site.
+Twitter API - Allows you to display Tweets on a web site.
+Facebook API - Allows you to display Facebook info on a web site.
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ API ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
 
 
 ----------------------- TEST? ------------------------
