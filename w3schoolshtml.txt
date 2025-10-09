@@ -1,4 +1,4 @@
-w3schools html - start at bottom
+w3schools html
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -118,6 +118,13 @@ map coordinates
 
 
 
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CSS: images icons and tricks ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CSS: images icons and tricks ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CSS: images icons and tricks ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CSS: images icons and tricks ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CSS: images icons and tricks ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+
 // CSS - shapes and such.   Cool little tricks with images here...
 
 https://pathfinder.w3schools.com/learningpaths?skillId=d9d33465-bb26-40af-9181-a949de2f5b44
@@ -140,13 +147,119 @@ https://pathfinder.w3schools.com/learningpaths?skillId=d9d33465-bb26-40af-9181-a
 https://pathfinder.w3schools.com/learningpaths?skillId=d9d33465-bb26-40af-9181-a949de2f5b44
   background-image: conic-gradient(from 45deg, purple, pink);
 
-<!-----------  html course at w3schools.  Already about 25% through ----------->
-<!-----------  html course at w3schools.  Already about 25% through ----------->
-<!-----------  html course at w3schools.  Already about 25% through ----------->
-<!-----------  html course at w3schools.  Already about 25% through ----------->
-<!-----------  html course at w3schools.  Already about 25% through ----------->
-<!-----------  html course at w3schools.  Already about 25% through ----------->
-<!-----------  html course at w3schools.  Already about 25% through ----------->
+// icons
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+
+
+<body>
+    <h1>Icons Challenge</h1>
+    <div id="icon" class="icon">
+        <i class="glyphicon glyphicon-cloud"></i>
+<!-- added these to show other options-->
+        <i class="glyphicon glyphicon-remove"></i>
+        <i class="glyphicon glyphicon-user"></i>
+        <i class="glyphicon glyphicon-envelope"></i>
+        <i class="glyphicon glyphicon-thumbs-up"></i>
+    </div>
+    <p>CSS Icons are decorative and enhance the visual appeal!</p>
+</body>
+
+
+<!-- These are CSS counters -->
+<style>
+body {
+  counter-reset: section;
+}
+
+h1 {
+  counter-reset: subsection;
+}
+
+h1::before {
+  counter-increment: section;
+  content: "Section " counter(section) ". ";
+}
+
+h2::before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " ";
+}
+</style>
+</head>
+<body>
+
+
+<h1>HTML/CSS Tutorials</h1>
+<h2>HTML</h2>
+<h2>CSS</h2>
+<h2>Bootstrap</h2>
+<h2>W3.CSS</h2>
+<h2>Sass</h2>
+
+<h1>Scripting Tutorials</h1>
+<h2>JavaScript</h2>
+<h2>jQuery</h2>
+<h2>React</h2>
+
+<h1>Programming Tutorials</h1>
+<h2>Python</h2>
+<h2>Java</h2>
+<h2>C++</h2>
+<!-- end of CSS counters -->
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ END OF CSS:  images icons and tricks ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ END OF CSS:  images icons and tricks ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ END OF CSS:  images icons and tricks ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ END OF CSS:  images icons and tricks ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ END OF CSS:  images icons and tricks ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CSS: VARIABLES ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+:root {
+  /* Define your variables here */
+  --header-color: blue;
+  --button-bg-color: green;
+  --button-text-color: white;
+  --footer-bg-color: lightgray;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  color: var(--header-color);
+}
+
+.button {
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ END OF CSS: VARIABLES ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ HTML COURSE AT W3SCHOOLS ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ HTML COURSE AT W3SCHOOLS ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ HTML COURSE AT W3SCHOOLS ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ HTML COURSE AT W3SCHOOLS ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ HTML COURSE AT W3SCHOOLS ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ HTML COURSE AT W3SCHOOLS ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ HTML COURSE AT W3SCHOOLS ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ HTML COURSE AT W3SCHOOLS ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ HTML COURSE AT W3SCHOOLS ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ HTML COURSE AT W3SCHOOLS ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
 <!-- bg stretch -->
         background-image: url("https://www.w3schools.com/html/img_girl.jpg"); // there's a quiz question about this
@@ -229,7 +342,7 @@ Favicon - To add a favicon to your website, either save your favicon image to th
 
 /*
 
-lists
+// lists
 
 The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term.
 
@@ -383,25 +496,6 @@ div  {
 </style>
 
 
-// flexbox 
-    <style>
-      .mycontainer {
-      display: flex;
-      }
-      .mycontainer > div {
-      width:33%;
-      }
-    </style>
-
-// grid
-<style>
-.grid-container  {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-}
-</style>
-
-
 
 // Use ID to advance to a portion in the page
 <h2 id="C4">Chapter 4</h2>
@@ -494,6 +588,21 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
 
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CSS FLEXBOX LAYOUT ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
+
+// small flex
+// flexbox 
+    <style>
+      .mycontainer {
+      display: flex;
+      }
+      .mycontainer > div {
+      width:33%;
+      }
+    </style>
+
+
+
+// need to paste all this code and see what's going on.  London, Paris, Tokyo, flex
 
 <!DOCTYPE html>
 <html lang="en">
@@ -591,9 +700,87 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
   </body>
 </html>
 
+
+
+
 ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ END OF CSS FLEXBOX LAYOUT ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
 
+
+
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ CSS GRID LAYOUT ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+// small grid
+// grid
+<style>
+.grid-container  {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+</style>
+
+
+
+
+// big layout from w3 has header, links, which I hope display in the body, and a footer
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+  background-color: #2196F3;
+  padding: 5px;
+}
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+.container > div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container > div.menu {
+  grid-area: menu;
+}
+.container > div.content {
+  grid-area: content;
+}
+.container > div.footer {
+  grid-area: footer;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Grid Layout</h1>
+
+<p>The Grid Layout Module offers a grid-based layout system, with rows and columns.</p>
+<p>The Grid Layout Module makes it easy to design complex and responsive web pages without using floats and positioning:</p>
+
+<div class="container">
+  <div class="header"><h2>My Header</h2></div>
+  <div class="menu"><a href="#">Link 1</a><br><a href="#">Link 2</a><br><a href="#">Link 3</a></div>
+  <div class="content"><h3>Lorem Ipsum</h3><p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ridiculus sit nisl laoreet facilisis aliquet. Potenti dignissim litora eget montes rhoncus sapien neque urna. Cursus libero sapien integer magnis ligula lobortis quam ut.</p></div>
+  <div class="footer"><h4>Footer</h4></div>
+</div>
+
+</body>
+</html>
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ END OF CSS GRID LAYOUT ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ RESPONSIVE WEB DESIGN ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
