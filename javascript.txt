@@ -1,1 +1,28 @@
-javascript
+w3schools javascript
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ BASICS ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+// starting with some basics
+// having an id="demo" and a div calling that id will get the text to populate
+
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="demo"></p>
+	<script>
+		document.getElementById("demo").innerHTML = "<h2>Hello World</h2>";
+	</script>
+
+// document.write will remove html on the screen
+   // it should only be used for testing
+    <h2>My First Web Page</h2>
+    <p>My first paragraph.</p>
+    <button onclick="document.write(5 + 6)" type="button">Try it</button>
+
+
+// pulled this from notes that I deleted from the JavaScript/w3schools folder (OneDrive)
+    <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+    <p id="demo"></p>
+    <script src="notes.js" async defer></script>
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ END OF BASICS ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
