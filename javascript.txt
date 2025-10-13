@@ -25,4 +25,45 @@ w3schools javascript
     <p id="demo"></p>
     <script src="notes.js" async defer></script>
 
+
+/*
+Always declare a variable with const when you know that the value should not be changed.
+
+Use const when you declare a new:
+
+  Array
+  Object
+  Function
+  RegExp
+
+can change properties and elements in objects/arrays, but can't reassign
+which means you can change an index [0] or push (to add to the array)
+but you can't change it by using the array name and changing it
+meaning
+cars[0] = "new car"; will work
+but you can't say cars = [and make a new array with the same named array], so push or change an specific element.
+
+and same goes for objects.  change car.color or car.owner -- properties -- but you can't use the name of the object to change all the properties, like above
+car = {changing the properties this way won't work}
+
+*/
+
+
+
+// CHALLENGE for JavaScript Const
+  <body>
+    <h1>Variables, Let, Const & Data Types</h1>
+    <p id='letVariable'></p>
+    <p id='constVariable'></p>
+    <script>                   // I did the script, the above was already there for this challenge
+        // Add your JavaScript code here
+        let x = 10;
+        document.getElementById("letVariable").innerHTML = x;  
+        const y = 20;
+        document.getElementById("constVariable").innerHTML = y;
+    </script>
+  </body>
+
+
+
 ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ END OF BASICS ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
